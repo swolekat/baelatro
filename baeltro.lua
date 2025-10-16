@@ -21,7 +21,7 @@ function SMODS.INIT.Baelatro()
     local sprite_trt = SMODS.Sprite:new("Tarot", dec_mod.path, "baeTarots.png", 71, 95, "asset_atli")
     sprite_trt:register()
 
-    local sprite_title = SMODS.Sprite:new("balatro", dec_mod.path, "test.jpg", 960, 540, "asset_atli")
+    local sprite_title = SMODS.Sprite:new("balatro", dec_mod.path, "baelatro.png", 505, 218, "asset_atli")
     sprite_title:register()
 
     --SMODS.handle_loc_file(dec_mod.path .. 'text/')
