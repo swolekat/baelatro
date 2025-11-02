@@ -16,6 +16,6 @@ Lots of people worked on this project for simplicity's sake I'll divide this up 
 * Witch_Hunter_ and stjimmy1995 for posing the models
 * [AstrowellTV](https://www.twitch.tv/astrowelltv) for the splash screen
 * [Patriversal](https://www.fiverr.com/patriexist) for the tarot cards
-[README.md](README.md)
+
 ### Mod Credits
 * Swolekat (that's me) 
