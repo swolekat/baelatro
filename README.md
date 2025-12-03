@@ -18,4 +18,6 @@ Lots of people worked on this project for simplicity's sake I'll divide this up 
 * [Patriversal](https://www.fiverr.com/patriexist) for the tarot cards
 
 ### Mod Credits
-* Swolekat (that's me) 
+* Swolekat (that's me) - modifying the lua importing the artwork
+* Witch_Hunter_ - translations and setting up the card assets
+* stjimmy1995 - translations
