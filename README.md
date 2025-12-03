@@ -13,8 +13,8 @@ Lots of people worked on this project for simplicity's sake I'll divide this up 
 
 ### Art Credits
 * [EmergentComics](https://emergentcomics.com/) for making the vast majority of the models.
-* Witch_Hunter_ and stjimmy1995 for posing the models
-* [AstrowellTV](https://www.twitch.tv/astrowelltv) for the splash screen
+* Witch_Hunter_ and stjimmy1995 for posing the models and doing translations.
+* [AstrowellTV](https://www.twitch.tv/astrowelltv) for the splash screen and jimbobae joker
 * [Patriversal](https://www.fiverr.com/patriexist) for the tarot cards
 
 ### Mod Credits

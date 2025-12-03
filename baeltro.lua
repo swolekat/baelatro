@@ -15,8 +15,8 @@ function SMODS.INIT.Baelatro()
     local sprite_card = SMODS.Sprite:new("cards_2", dec_mod.path, "cardsHC.png", 71, 95, "asset_atli")
     sprite_card:register()
 
-    --local sprite_jkr = SMODS.Sprite:new("Joker", dec_mod.path, "Jokers.png", 71, 95, "asset_atli")
-    --sprite_jkr:register()
+    local sprite_jkr = SMODS.Sprite:new("Joker", dec_mod.path, "Jokers.png", 71, 95, "asset_atli")
+    sprite_jkr:register()
 
     local sprite_trt = SMODS.Sprite:new("Tarot", dec_mod.path, "baeTarots.png", 71, 95, "asset_atli")
     sprite_trt:register()
