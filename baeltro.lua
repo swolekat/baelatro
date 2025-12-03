@@ -10,10 +10,10 @@
 function SMODS.INIT.Baelatro()
 
     local dec_mod = SMODS.findModByID("Baelatro")
-    --local sprite_card = SMODS.Sprite:new("cards_1", dec_mod.path, "IGT.png", 71, 95, "asset_atli")
-    --sprite_card:register()
-    --local sprite_card = SMODS.Sprite:new("cards_2", dec_mod.path, "IGTHC.png", 71, 95, "asset_atli")
-    --sprite_card:register()
+    local sprite_card = SMODS.Sprite:new("cards_1", dec_mod.path, "cards.png", 71, 95, "asset_atli")
+    sprite_card:register()
+    local sprite_card = SMODS.Sprite:new("cards_2", dec_mod.path, "cardsHC.png", 71, 95, "asset_atli")
+    sprite_card:register()
 
     --local sprite_jkr = SMODS.Sprite:new("Joker", dec_mod.path, "Jokers.png", 71, 95, "asset_atli")
     --sprite_jkr:register()
