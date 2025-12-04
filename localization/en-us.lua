@@ -703,11 +703,10 @@ return {
                 },
             },
             j_chaos={
-                name="Clown Beeper",
+                name="Green Joker",
                 text={
                     "{C:attention}#1#{} free {C:green}Reroll",
                     "per shop",
-                    "stimky whimby",
                 },
             },
             j_chicot={
