@@ -675,6 +675,7 @@ return {
                     "{C:green}#2# in #3#{} chance this",
                     "card is destroyed",
                     "at end of round",
+                    "OOOOH BANANA",
                 },
             },
             j_ceremonial={
@@ -802,7 +803,7 @@ return {
                 },
             },
             j_drivers_license={
-                name="Driver's License",
+                name="Horny License",
                 text={
                     "{X:mult,C:white} X#1# {} Mult if you have",
                     "at least {C:attention}16{} Enhanced",
@@ -856,6 +857,7 @@ return {
                     "Gains {C:money}$#1#{} of",
                     "{C:attention}sell value{} at",
                     "end of round",
+                    "TFW blue egg becomes a golden one",
                 },
             },
             j_erosion={
@@ -1247,7 +1249,7 @@ return {
                 },
             },
             j_mr_bones={
-                name="Mr. Bones",
+                name="Mistah Skellington",
                 text={
                     "Prevents Death",
                     "if chips scored",
@@ -1301,11 +1303,12 @@ return {
                 },
             },
             j_oops={
-                name="Oops! All 6s",
+                name="Marbles Rigger",
                 text={
                     "Doubles all {C:attention}listed",
                     "{C:green,E:1,S:1.1}probabilities",
                     "{C:inactive}(ex: {C:green}1 in 3{C:inactive} -> {C:green}2 in 3{C:inactive})",
+                    "Always rigged. Always.",
                 },
                 unlock={
                     "In one hand,",
@@ -1420,6 +1423,7 @@ return {
                     "{C:attention}Joker{}, {C:tarot}Tarot{}, {C:planet}Planet{},",
                     "and {C:spectral}Spectral{} cards may",
                     "appear multiple times",
+                    "Does the scrungle bungus upon hitting nane inf",
                 },
                 unlock={
                     "Reach Ante",
@@ -1427,7 +1431,7 @@ return {
                 },
             },
             j_rocket={
-                name="Rocket",
+                name="NERP Rocket",
                 text={
                     "Earn {C:money}$#1#{} at end of round",
                     "Payout increases by {C:money}$#2#{}",
@@ -1451,12 +1455,13 @@ return {
                 },
             },
             j_runner={
-                name="Runner",
+                name="Which Runner",
                 text={
                     "Gains {C:chips}+#2#{} Chips",
                     "if played hand",
                     "contains a {C:attention}Straight{}",
                     "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)",
+                    "Forreal Which Runner A!",
                 },
             },
             j_satellite={
@@ -1891,7 +1896,7 @@ return {
                 },
             },
             blue_seal={
-                name="Blue Seal",
+                name="Zara Seal",
                 text={
                     "Creates the {C:planet}Planet{} card",
                     "for final played {C:attention}poker hand{}",
@@ -2171,7 +2176,7 @@ return {
                 },
             },
             purple_seal={
-                name="Purple Seal",
+                name="Gothbae Seal",
                 text={
                     "Creates a {C:tarot}Tarot{} card",
                     "when {C:attention}discarded",
@@ -2187,7 +2192,7 @@ return {
                 },
             },
             red_seal={
-                name="Red Seal",
+                name="Swolebae Seal",
                 text={
                     "Retrigger this",
                     "card {C:attention}1{} time",
@@ -2448,7 +2453,7 @@ return {
             c_deja_vu={
                 name="Deja Vu",
                 text={
-                    "Add a {C:red}Red Seal{}",
+                    "Add a {C:red}Swolebae Seal{}",
                     "to {C:attention}1{} selected",
                     "card in your hand",
                 },
@@ -2507,7 +2512,7 @@ return {
             c_medium={
                 name="Medium",
                 text={
-                    "Add a {C:purple}Purple Seal{}",
+                    "Add a {C:purple}Gothbae Seal{}",
                     "to {C:attention}1{} selected",
                     "card in your hand",
                 },
@@ -2540,7 +2545,7 @@ return {
             c_talisman={
                 name="Talisman",
                 text={
-                    "Add a {C:attention}Gold Seal{}",
+                    "Add a {C:attention}Fundo Seal{}",
                     "to {C:attention}1{} selected",
                     "card in your hand",
                 },
@@ -2548,7 +2553,7 @@ return {
             c_trance={
                 name="Trance",
                 text={
-                    "Add a {C:blue}Blue Seal{}",
+                    "Add a {C:blue}Zara Seal{}",
                     "to {C:attention}1{} selected",
                     "card in your hand",
                 },
@@ -3822,11 +3827,11 @@ return {
             win_streak="Best Win Streak",
         },
         labels={
-            blue_seal="Blue Seal",
+            blue_seal="Zara Seal",
             common="Meh",
             eternal="Eternal",
             foil="Foil",
-            gold_seal="Gold Seal",
+            gold_seal="Fundo Seal",
             holographic="Holographic",
             legendary="GOATed",
             locked="Locked",
@@ -3836,9 +3841,9 @@ return {
             planet="Planet",
             pluto_planet="Best Planet",
             polychrome="Polychrome",
-            purple_seal="Purple Seal",
+            purple_seal="Gothbae Seal",
             rare="Rare",
-            red_seal="Red Seal",
+            red_seal="Swolebae Seal",
             rental="Rental",
             tarot="Tarot",
             uncommon="Uncommon",
