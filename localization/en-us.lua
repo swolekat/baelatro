@@ -615,7 +615,7 @@ return {
                     "Played {C:attention}face{} cards have",
                     "a {C:green}#1# in #2#{} chance to",
                     "give {C:money}$2{} when scored",
-                    "Let's see Paul Allen's card",
+                    "{s:0.8}Let's see Paul Allen's card{}",
                 },
             },
             j_caino={
@@ -675,7 +675,7 @@ return {
                     "{C:green}#2# in #3#{} chance this",
                     "card is destroyed",
                     "at end of round",
-                    "OOOOH BANANA",
+                    "{E:1}OOOOH BANANA{}",
                 },
             },
             j_ceremonial={
@@ -703,7 +703,7 @@ return {
                 },
             },
             j_chaos={
-                name="Green Joker",
+                name="Chaos the Clown",
                 text={
                     "{C:attention}#1#{} free {C:green}Reroll",
                     "per shop",
@@ -856,7 +856,7 @@ return {
                     "Gains {C:money}$#1#{} of",
                     "{C:attention}sell value{} at",
                     "end of round",
-                    "TFW blue egg becomes a golden one",
+                    "{s:0.8}TFW blue egg becomes a golden one{}",
                 },
             },
             j_erosion={
@@ -934,6 +934,7 @@ return {
                     "{C:red}+#1#{} Mult per {C:purple}Tarot{}",
                     "card used this run",
                     "{C:inactive}(Currently {C:red}+#2#{C:inactive})",
+                    "{s:0.8}notably, this is {s:1.0}NOT {s:0.8} Zara{}",
                 },
             },
             j_four_fingers={
@@ -980,8 +981,8 @@ return {
                 text={
                     "Earn {C:money}£#1#{} at",
                     "end of round",
-                    "Oi you! Shut your mouth",
-                    "and look at my wad!",
+                    "{s:0.8}Oi you! Shut your mouth{}",
+                    "{s:0.8}and look at my wad!{}",
                 },
             },
             j_greedy_joker={
@@ -1114,10 +1115,10 @@ return {
                 },
             },
             j_joker={
-                name="Witch Hunter",
+                name="Joker Bae",
                 text={
                     "{C:red,s:1.1}+#1#{} Mult",
-                    "Shameless Self-insert",
+                    "{s:0.8}Konnichiwa, Player-chan",
                 },
             },
             j_jolly={
@@ -1307,7 +1308,7 @@ return {
                     "Doubles all {C:attention}listed",
                     "{C:green,E:1,S:1.1}probabilities",
                     "{C:inactive}(ex: {C:green}1 in 3{C:inactive} -> {C:green}2 in 3{C:inactive})",
-                    "Always rigged. Always.",
+                    "{s:0.8}Always rigged. Always.{}",
                 },
                 unlock={
                     "In one hand,",
@@ -1378,6 +1379,8 @@ return {
                     "{X:mult,C:white} X#1# {} Mult,",
                     "loses {X:mult,C:white} X#2# {} Mult",
                     "per {C:attention}card{} discarded",
+                    "{s:0.8}Umai! I could go for some{}",
+                    "{s:0.8}Ramen right about now, nyan nyan{}",
                 },
             },
             j_red_card={
@@ -1409,7 +1412,7 @@ return {
                 },
             },
             j_riff_raff={
-                name="Riff-Raff",
+                name="Change Current Avatar",
                 text={
                     "When {C:attention}Blind{} is selected,",
                     "create {C:attention}#1# {C:blue}Common{C:attention} Jokers",
@@ -1435,9 +1438,8 @@ return {
                     "Earn {C:money}$#1#{} at end of round",
                     "Payout increases by {C:money}$#2#{}",
                     "when {C:attention}Boss Blind{} is defeated.",
-                    "When on platform 3-4 of the",
-                    "Newark Penn Station train line",
-                    "Lose {C:money}$1000{}",
+                    "{s:0.8}For {}{C:money,s:0.8}golden{} {s:0.8}eggs only!{}",
+                    "{C:blue,s:0.8}blue{} {s:0.8}eggs stick to diversifying{}",
                 },
             },
             j_rough_gem={
@@ -1460,7 +1462,7 @@ return {
                     "if played hand",
                     "contains a {C:attention}Straight{}",
                     "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)",
-                    "Forreal Which Runner A!",
+                    "{s:0.8}Forreal Which Runner A!{}",
                 },
             },
             j_satellite={
@@ -1477,11 +1479,13 @@ return {
                 },
             },
             j_scary_face={
-                name="Scary Face",
+                name="Kowai Face",
                 text={
                     "Played {C:attention}face{} cards",
                     "give {C:chips}+#1#{} Chips",
                     "when scored",
+                    "{s:0.8}Sometimes Glint makes this face when{}",
+                    "{s:0.8}she thinks nobody is watching{}",
                 },
             },
             j_scholar={
@@ -1525,11 +1529,12 @@ return {
                 },
             },
             j_shoot_the_moon={
-                name="Shoot the Moon",
+                name="QueenBae When?",
                 text={
                     "Each {C:attention}Queen{}",
                     "held in hand",
                     "gives {C:mult}+#1#{} Mult",
+                    "{s:0.8}The more Bae models, the better!{}",
                 },
                 unlock={
                     "Play every {E:1,C:attention}Heart",
@@ -1546,12 +1551,13 @@ return {
                 },
             },
             j_sixth_sense={
-                name="Sixth Sense",
+                name="Manifest Your Own Destiny",
                 text={
                     "If {C:attention}first hand{} of round is",
                     "a single {C:attention}6{}, destroy it and",
                     "create a {C:spectral}Spectral{} card",
                     "{C:inactive}(Must have room)",
+                    "{C:tarot,s:0.8}Gurl what? I don't do wishes{}",
                 },
             },
             j_sly={
@@ -1577,7 +1583,7 @@ return {
                 },
             },
             j_smiley={
-                name="Smiley Face",
+                name="Genki Face",
                 text={
                     "Played {C:attention}face{} cards",
                     "give {C:mult}+#1#{} Mult",
@@ -1589,6 +1595,8 @@ return {
                 text={
                     "Retrigger all",
                     "played {C:attention}face{} cards",
+                    "{s:0.8}White Goo Redeem{}",
+                    "{E:2,s:1.1}Go To Horny Jail",
                 },
                 unlock={
                     "Play a total of",
@@ -1602,8 +1610,8 @@ return {
                     "{C:green}#1# in #2#{} chance to",
                     "upgrade level of",
                     "played {C:attention}poker hand{}",
-                    "They come from space",
-                    "No they don't come from here",
+                    "{s:0.8}They come from space{}",
+                    "{s:0.8}No they don't come from here{}",
                 },
             },
             j_splash={
@@ -1667,6 +1675,7 @@ return {
                     "Adds the number of times",
                     "{C:attention}poker hand{} has been",
                     "played this run to Mult",
+                    "{s:0.8}I'm at the top of Arasaka Tower!{}"
                 },
             },
             j_superposition={
@@ -1693,11 +1702,13 @@ return {
                 },
             },
             j_throwback={
-                name="Throwback",
+                name="Retro Console Enthusiast",
                 text={
                     "{X:mult,C:white} X#1# {} Mult for each",
                     "{C:attention}Blind{} skipped this run",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{s:0.8}Check out Swole's video about{}",
+                    "{s:0.8}the PC-98!{}",
                 },
                 unlock={
                     "Continue a saved run",
@@ -1722,6 +1733,7 @@ return {
                     "Earn an extra {C:money}$#1#{} of",
                     "{C:attention}interest{} for every {C:money}$5{} you",
                     "have at end of round",
+                    "{s:0.8}Buy POOM today!{}",
                 },
             },
             j_todo_list={
@@ -1731,6 +1743,11 @@ return {
                     "is a {C:attention}#2#{},",
                     "poker hand changes",
                     "at end of round",
+                    "{s:0.8}Buy pocky{}",
+                    "{s:0.8}Organize manga{}",
+                    "{s:0.8}Order more bras{}",
+                    "{s:0.8}Bother Kyle{}",
+                    "{s:0.8}Attend Mod Meeting{}",
                 },
             },
             j_trading={
@@ -1822,8 +1839,8 @@ return {
                     "per scoring {C:attention}Enhanced card{} played,",
                     "removes card {C:attention}Enhancement",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
-                    "I don't care if I go blind",
-                    "I don't need to see the price tag",
+                    "{s:0.8}I don't care if I go blind{}",
+                    "{s:0.8}I don't need to see the price tag{}",
                 },
             },
             j_walkie_talkie={
@@ -1835,12 +1852,13 @@ return {
                 },
             },
             j_wee={
-                name="Wee Joker",
+                name="Chibi Joker Bae",
                 text={
                     "This Joker gains",
                     "{C:chips}+#2#{} Chips when each",
                     "played {C:attention}2{} is scored",
                     "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)",
+                    "{s:0.8}UwU, so kawaii!{}",
                 },
                 unlock={
                     "Win a run in {E:1,C:attention}#1#",
@@ -1870,7 +1888,7 @@ return {
                     "{X:mult,C:white} X#1# {} Mult every {C:attention}#2#{C:inactive} [#3#]{}",
                     "cards discarded",
                     "{C:inactive}(Currently {X:mult,C:white} X#4# {C:inactive} Mult)",
-                    "Is that a... Russian Name?",
+                    "{s:0.8}Is that a... Russian Name?{}",
                 },
                 unlock={
                     "{E:1,s:1.3}?????",
@@ -1901,6 +1919,7 @@ return {
                     "for final played {C:attention}poker hand{}",
                     "of round if {C:attention}held{} in hand",
                     "{C:inactive}(Must have room)",
+                    "{C:tarot,s:0.8} Mercury is in retrograde{}",
                 },
             },
             blue_sticker={
@@ -1998,6 +2017,7 @@ return {
                     "Earn {C:money}$3{} when this",
                     "card is played",
                     "and scores",
+                    "{C:money,s:0.8}Line go up!{}",
                 },
             },
             gold_sticker={
@@ -2180,6 +2200,7 @@ return {
                     "Creates a {C:tarot}Tarot{} card",
                     "when {C:attention}discarded",
                     "{C:inactive}(Must have room)",
+                    "{C:purple,s:0.8} guaranteed to not be cursed{}",
                 },
             },
             purple_sticker={
@@ -2195,6 +2216,7 @@ return {
                 text={
                     "Retrigger this",
                     "card {C:attention}1{} time",
+                    "{C:red,s:0.8} Nyan Nyan! let's do that again!{}",
                 },
             },
             red_sticker={
@@ -2338,7 +2360,7 @@ return {
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult and",
                     "{C:chips}+#4#{} chips",
-                    "The size of Bae's Booba OwO",
+                    "{s:0.8}The size of Bae's Booba OwO{}",
                 },
             },
             c_mars={
@@ -2375,7 +2397,7 @@ return {
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult and",
                     "{C:chips}+#4#{} chips",
-                    "As Mysterious as Ketamine",
+                    "{s:0.8}As Mysterious as Ketamine{}",
                 },
             },
             c_pluto={
@@ -2385,6 +2407,7 @@ return {
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult and",
                     "{C:chips}+#4#{} chips",
+                    "{s:0.8}It's still a Planet in my heart!{}",
                 },
             },
             c_saturn={
@@ -2422,6 +2445,7 @@ return {
                     "Create a copy of a",
                     "random {C:attention}Joker{}, destroy",
                     "all other Jokers",
+                    "{s:0.8} what the heckertons?!{}",
                 },
             },
             c_aura={
@@ -2446,7 +2470,7 @@ return {
                     "Create {C:attention}#1#{} copies of",
                     "{C:attention}1{} selected card",
                     "in your hand",
-                    "Basically Glint Ketamine"
+                    "{s:0.8}Basically Glint Ketamine{}"
                 },
             },
             c_deja_vu={
@@ -2463,6 +2487,7 @@ return {
                     "Add {C:dark_edition}Negative{} to",
                     "a random {C:attention}Joker,",
                     "{C:red}-#1#{} hand size",
+                    "{s:0.8}We did too many White Goo redeems{}",
                 },
             },
             c_familiar={
@@ -2537,7 +2562,7 @@ return {
                 name="The Soul",
                 text={
                     "Creates a",
-                    "{C:legendary,E:1}Legendary{} Joker",
+                    "{C:legendary,E:1}GOATed{} Joker",
                     "{C:inactive}(Must have room)",
                 },
             },
@@ -2672,6 +2697,7 @@ return {
                     "Gives a copy of the",
                     "next selected {C:attention}Tag{}",
                     "{s:0.8,C:attention}Double Tag{s:0.8} excluded",
+                    "{s:0.8}We going Naninf with this!{}",
                 },
             },
             tag_economy={
@@ -2817,6 +2843,7 @@ return {
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
                     "{C:attention}#2#",
+                    "{s:0.8}Make sure SAMMI is running!{}",
                 },
             },
             c_death={
@@ -2826,6 +2853,7 @@ return {
                     "convert the {C:attention}left{} card",
                     "into the {C:attention}right{} card",
                     "{C:inactive}(Drag to rearrange)",
+                    "{s:0.8}Don't get it backwards!{}",
                 },
             },
             c_devil={
@@ -2834,6 +2862,7 @@ return {
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
                     "{C:attention}#2#",
+                    "{s:0.8}Chat, is this real?{}",
                 },
             },
             c_emperor={
@@ -2842,6 +2871,7 @@ return {
                     "Creates up to {C:attention}#1#",
                     "random {C:tarot}Tarot{} cards",
                     "{C:inactive}(Must have room)",
+                    "{s:0.8}The Giga Gato Himself!{}",
                 },
             },
             c_empress={
@@ -2850,6 +2880,7 @@ return {
                     "Enhances {C:attention}#1#",
                     "selected cards to",
                     "{C:attention}#2#s",
+                    "{s:0.8}The Bae that started it all!",
                 },
             },
             c_fool={
@@ -2859,6 +2890,7 @@ return {
                     "{C:tarot}Tarot{} or {C:planet}Planet{} card",
                     "used during this run",
                     "{s:0.8,C:tarot}The Fool{s:0.8} excluded",
+                    "{C:spades,s:0.8}Not that faker, David!{}",
                 },
             },
             c_hanged_man={
@@ -2866,6 +2898,7 @@ return {
                 text={
                     "Destroys up to",
                     "{C:attention}#1#{} selected cards",
+                    "{E:2,s:0.8}Long, long Maaaaaaaaan!{}",
                 },
             },
             c_heirophant={
@@ -2874,6 +2907,7 @@ return {
                     "Enhances {C:attention}#1#",
                     "selected cards to",
                     "{C:attention}#2#s",
+                    "{s:0.8}He's just a little guy!{}",
                 },
             },
             c_hermit={
@@ -2881,6 +2915,7 @@ return {
                 text={
                     "Doubles da money",
                     "{C:inactive}(Max of {C:money}$#1#{C:inactive})",
+                    "{s:0.8}Careful not to get too much cheddar{}",
                 },
             },
             c_high_priestess={
@@ -2889,6 +2924,7 @@ return {
                     "Creates up to {C:attention}#1#",
                     "random {C:planet}Planet{} cards",
                     "{C:inactive}(Must have room)",
+                    "{s:0.8}Two big and lovely, uhh... Planets, yea{}",
                 },
             },
             c_judgement={
@@ -2897,6 +2933,7 @@ return {
                     "Creates a random",
                     "{C:attention}Joker{} card",
                     "{C:inactive}(Must have room)",
+                    "{s:0.8}Gurl What?{}",
                 },
             },
             c_justice={
@@ -2905,6 +2942,8 @@ return {
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
                     "{C:attention}#2#",
+                    "{s:0.8}We're probably more unjust than{}",
+                    "{s:0.8}all the viewers combined{}",
                 },
             },
             c_lovers={
@@ -2913,14 +2952,17 @@ return {
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
                     "{C:attention}#2#",
+                    "{s:0.8}Over 50 Bae models and they{}",
+                    "{s:0.8}ALL love Swolekat!{}",
                 },
             },
             c_magician={
-                name="The Magician",
+                name="The Nya~gician",
                 text={
                     "Enhances {C:attention}#1#{}",
                     "selected cards to",
                     "{C:attention}#2#s",
+                    "{s:0.8}It's your lucky day, Nya!{}",
                 },
             },
             c_moon={
@@ -2929,6 +2971,8 @@ return {
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
                     "to {V:1}#2#{}",
+                    "{C:purple,s:0.8}Ugh, fine, yes I'm having fun with{}",
+                    "{C:purple,s:0.8}this, just don't tell Swolebae{}",
                 },
             },
             c_star={
@@ -2937,6 +2981,7 @@ return {
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
                     "to {V:1}#2#{}",
+                    "{s:0.8}Glory be to Slim Chickens!{}",
                 },
             },
             c_strength={
@@ -2945,6 +2990,7 @@ return {
                     "Increases rank of",
                     "up to {C:attention}#1#{} selected",
                     "cards by {C:attention}1",
+                    "{s:0.8}I'm the pickle man, with the pickle plan{}",
                 },
             },
             c_sun={
@@ -2953,6 +2999,7 @@ return {
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
                     "to {V:1}#2#{}",
+                    "{s:0.8}This is going in the Dairy Diary!{}",
                 },
             },
             c_temperance={
@@ -2962,6 +3009,8 @@ return {
                     "value of all current",
                     "Jokers {C:inactive}(Max of {C:money}$#1#{C:inactive})",
                     "{C:inactive}(Currently {C:money}$#2#{C:inactive})",
+                    "{s:0.8}It doesn't need to make sense{}",
+                    "{s:0.8}it just needs to make dollars{}",
                 },
             },
             c_tower={
@@ -2970,6 +3019,7 @@ return {
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
                     "{C:attention}#2#",
+                    "{s:0.8}Too much, is never enough{}",
                 },
             },
             c_wheel_of_fortune={
@@ -2979,6 +3029,7 @@ return {
                     "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
                     "{C:dark_edition}Polychrome{} edition",
                     "to a random {C:attention}Joker",
+                    "{C:dark_edition,E:2,s:2}Let's Go Gambling!{}",
                 },
             },
             c_world={
@@ -2987,6 +3038,7 @@ return {
                     "Converts up to",
                     "{C:attention}#1#{} selected cards",
                     "to {V:1}#2#{}",
+                    "{s:0.8}Swolebae is the world to me - {s:0.6}Swolekat, probably{}",
                 },
             },
         },
@@ -3005,7 +3057,7 @@ return {
             v_blank={
                 name="Blank",
                 text={
-                    "{C:inactive}Does nothing?",
+                    "{C:inactive}OwO what's this?",
                 },
             },
             v_clearance_sale={
@@ -3016,7 +3068,7 @@ return {
                 },
             },
             v_crystal_ball={
-                name="Crystal Ball",
+                name="Gothbae's Crystal Ball",
                 text={
                     "{C:attention}+1{} consumable slot",
                 },
@@ -3213,7 +3265,7 @@ return {
                 },
             },
             v_planet_tycoon={
-                name="Planet Tycoon",
+                name="Planet Ty-goon",
                 text={
                     "{C:planet}Planet{} cards appear",
                     "{C:attention}#1#X{} more frequently",
@@ -3279,7 +3331,7 @@ return {
                 },
             },
             v_tarot_merchant={
-                name="Tarot Merchant",
+                name="Zara Merchant",
                 text={
                     "{C:tarot}Tarot{} cards appear",
                     "{C:attention}#1#X{} more frequently",
@@ -3584,7 +3636,7 @@ return {
             k_debuffed="TFW No Catgirl GF",
             k_deck="Deck",
             k_deck_stake_wins="Deck Stake Wins",
-            k_defeated_by="Pwned By",
+            k_defeated_by="Raided By",
             k_demo_version_ex="Demo Version!",
             k_disabled_ex="Blue Egg Moment!",
             k_drank_ex="Drank!",
@@ -3648,7 +3700,7 @@ return {
             k_reset="Reset",
             k_reward="Reward",
             k_round="Round",
-            k_safe_ex="Safe!",
+            k_safe_ex="UwU!",
             k_saved_ex="Saved!",
             k_seed="Seed",
             k_seeded_run="Seeded Run",
@@ -3724,6 +3776,7 @@ return {
             ml_offline_message={
                 "This device is offline.",
                 "The current save may be out of date.",
+                "What the Heckertons?!",
             },
             ml_open_target={
                 "Open",
@@ -3788,7 +3841,7 @@ return {
             ph_game_over="GAME OVER",
             ph_improve_run="Make your run more kawaii!",
             ph_most_played="(most played hand)",
-            ph_mr_bones="Saved by Mr. Bones",
+            ph_mr_bones="Saved by Mistah Skellington",
             ph_no_boss_active="no boss active",
             ph_no_vouchers="No vouchers redeemed this run",
             ph_score_at_least="Score at least",
@@ -3811,7 +3864,7 @@ return {
             ph_up_ante_2="Raise all Blinds",
             ph_up_ante_3="Refresh Blinds",
             ph_vouchers_redeemed="Vouchers redeemed this run",
-            ph_you_win="YOU WIN!",
+            ph_you_win="YOU WIN! SUGOI!",
             ph_you_win_demo="YOU WIN THE DEMO!",
         },
         high_scores={
@@ -3915,85 +3968,87 @@ return {
         -- todo here
         quips={
             dq_1={
-                "Yikes! I hope you",
-                "have a few tricks",
-                "up your sleeve for",
-                "this final challenge!",
+                "Baka, that is",
+                "not how you are",
+                "supposed to play!",
             },
             lq_1={
-                "Maybe Go Fish",
-                "is more our",
-                "speed...",
+                "Maybe we should",
+                "stick to JRPGs...",
             },
             lq_10={
-                "This Kills the Bun!",
+                "This is worse than",
+                "the Hiromi Incident!",
             },
             lq_2={
-                "Now you'll never",
-                "be noticed by GK-sama!",
+                "You forgot to",
+                "turn on SAMMI again,",
+                "didn't you?",
             },
             lq_3={
-                "Time for us",
-                "to shuffle off",
-                "and try again!",
+                "I guess it is",
+                "Trash Night, with",
+                "this kind of gameplay!",
             },
             lq_4={
-                "You know what",
-                "they say, the",
-                "house always wins!",
+                "This game probably",
+                "shouldn't be played",
+                "one-handed...",
             },
             lq_5={
-                "Looks like we",
-                "found out who",
-                "the real Joker is!",
+                "Looks like you're",
+                "all cheese and no chips!",
             },
             lq_6={
-                "Well, at least you",
-                "can still afford to",
-                "give GK some coquis, yea?",
+                "Don't worry, I",
+                "couldn't teach Glint",
+                "how to play, either",
             },
             lq_7={
-                "Looks like the",
-                "joke's on us!",
+                "Don't tell Zara",
+                "we creased one of",
+                "her tarot cards...",
             },
             lq_8={
-                "If I had hands",
-                "I would have",
-                "covered my eyes!",
+                "I might have gotten",
+                "this deck from Gothbae's",
+                "'cursed relic' shelf...",
+                "Eto... Bleh!",
             },
             lq_9={
-                "I'm literally",
-                "a fool, what's",
-                "your excuse?",
+                "Fundo promised me",
+                "this deck would win...",
+                "That cheeky baka!",
             },
             wq_1={
-                "You Aced it!",
+                "Sugoi! I knew you",
+                "could do it!",
             },
             wq_2={
-                "You dealt with",
-                "that pretty well!",
+                "Let's celebrate by",
+                "getting some chippy tea",
+                "with Kyle!",
             },
             wq_3={
-                "Looks like you",
-                "weren't bluffing!",
+                "I'm surpised you",
+                "didn't get distracted",
+                "ehehehe~",
             },
             wq_4={
-                "Too bad these",
-                "chips are all",
-                "virtual...",
+                "Aba Yabba Wawa!"
             },
             wq_5={
-                "Looks like I've",
-                "taught you well!",
+                "Nya Nya! you're such",
+                "a Poker Protagonist!",
             },
             wq_6={
-                "You made some",
-                "heads up plays!",
+                "Someone call up Glint,",
+                "cause that run was",
+                "the real deal!",
             },
             wq_7={
-                "Good thing",
-                "I didn't bet",
-                "against you!",
+                "As expected of the",
+                "Kawaii of the Kokoro!",
             },
         },
         ranks={
@@ -4169,7 +4224,7 @@ return {
             },
             sb_1={
                 "Hello there! My name is",
-                "{C:attention}Jimbo{}, I'm here to help",
+                "{C:attention}Jokerbae{}, I'm here to help",
                 "you learn how to play!",
             },
             sb_2={
