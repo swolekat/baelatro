@@ -388,7 +388,7 @@ return {
             m_gold={
                 name="Gold Card",
                 text={
-                    "{C:money}$#1#{} if this",
+                    "{C:money}#1#{} if this",
                     "card is held in hand",
                     "at end of round",
                 },
@@ -405,7 +405,7 @@ return {
             m_mult={
                 name="Mult Card",
                 text={
-                    "{C:mult}+#1#{} Mult",
+                    "{C:mult}#1#{} Mult",
                 },
             },
             m_steel={
@@ -419,7 +419,7 @@ return {
             m_stone={
                 name="Stone Card",
                 text={
-                    "{C:chips}+#1#{} Chips",
+                    "{C:chips}#1#{} Chips",
                     "no rank or suit",
                 },
             },
@@ -1937,7 +1937,7 @@ return {
             },
             card_extra_chips={
                 text={
-                    "{C:chips}+#1#{} extra chips",
+                    "{C:chips}#1#{} extra chips",
                 },
             },
             challenge_locked={
