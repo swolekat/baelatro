@@ -574,6 +574,7 @@ return {
                 text={
                     "Copies the ability",
                     "of leftmost {C:attention}Joker",
+                    "{s:0.8}Gigabrain 5head moment{}",
                 },
                 unlock={
                     "Discard a",
@@ -637,6 +638,7 @@ return {
                     "for each card {C:attention}sold{}, resets",
                     "when {C:attention}Boss Blind{} is defeated",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{s:0.8}He was a good {s:0.7}S.T.A.L.K.E.R.{}",
                 },
             },
             j_card_sharp={
@@ -934,7 +936,7 @@ return {
                     "{C:red}+#1#{} Mult per {C:purple}Tarot{}",
                     "card used this run",
                     "{C:inactive}(Currently {C:red}+#2#{C:inactive})",
-                    "{s:0.8}notably, this is {s:1.0}NOT {s:0.8} Zara{}",
+                    "{s:0.8}notably, this is {s:1.0}NOT {s:0.8}Zara{}",
                 },
             },
             j_four_fingers={
@@ -1355,6 +1357,7 @@ return {
                     "First played {C:attention}face",
                     "card gives {X:mult,C:white} X#1# {} Mult",
                     "when scored",
+                    "{s:0.8}Every time I do it makes me laugh{}",
                 },
             },
             j_popcorn={
@@ -1425,7 +1428,7 @@ return {
                     "{C:attention}Joker{}, {C:tarot}Tarot{}, {C:planet}Planet{},",
                     "and {C:spectral}Spectral{} cards may",
                     "appear multiple times",
-                    "Does the scrungle bungus upon hitting nane inf",
+                    "{s:0.8}Does the scrungle bungus upon hitting nane inf{}",
                 },
                 unlock={
                     "Reach Ante",
@@ -1484,8 +1487,6 @@ return {
                     "Played {C:attention}face{} cards",
                     "give {C:chips}+#1#{} Chips",
                     "when scored",
-                    "{s:0.8}Sometimes Glint makes this face when{}",
-                    "{s:0.8}she thinks nobody is watching{}",
                 },
             },
             j_scholar={
@@ -2397,7 +2398,6 @@ return {
                     "{C:attention}#2#",
                     "{C:mult}+#3#{} Mult and",
                     "{C:chips}+#4#{} chips",
-                    "{s:0.8}As Mysterious as Ketamine{}",
                 },
             },
             c_pluto={
@@ -2470,7 +2470,7 @@ return {
                     "Create {C:attention}#1#{} copies of",
                     "{C:attention}1{} selected card",
                     "in your hand",
-                    "{s:0.8}Basically Glint Ketamine{}"
+                    "{s:0.8}It's Free Real Estate{}"
                 },
             },
             c_deja_vu={
@@ -2843,7 +2843,8 @@ return {
                     "Enhances {C:attention}#1#{} selected",
                     "card into a",
                     "{C:attention}#2#",
-                    "{s:0.8}Make sure SAMMI is running!{}",
+                    "{s:0.8}Nested scenes... Nested Mult...{}",
+                    "{s:0.8}same difference{}",
                 },
             },
             c_death={
@@ -2890,7 +2891,7 @@ return {
                     "{C:tarot}Tarot{} or {C:planet}Planet{} card",
                     "used during this run",
                     "{s:0.8,C:tarot}The Fool{s:0.8} excluded",
-                    "{C:spades,s:0.8}Not that faker, David!{}",
+                    "{E:2,s:0.8}Uhh... Eto... Bleh!{}",
                 },
             },
             c_hanged_man={
@@ -3981,9 +3982,9 @@ return {
                 "the Hiromi Incident!",
             },
             lq_2={
-                "You forgot to",
-                "turn on SAMMI again,",
-                "didn't you?",
+                "Lemme guess",
+                "OBS crashed again,",
+                "didn't it?",
             },
             lq_3={
                 "I guess it is",
@@ -4001,7 +4002,7 @@ return {
             },
             lq_6={
                 "Don't worry, I",
-                "couldn't teach Glint",
+                "couldn't teach Monique",
                 "how to play, either",
             },
             lq_7={
@@ -4042,9 +4043,8 @@ return {
                 "a Poker Protagonist!",
             },
             wq_6={
-                "Someone call up Glint,",
-                "cause that run was",
-                "the real deal!",
+                "Feels better than,",
+                "winning a Marbles race!",
             },
             wq_7={
                 "As expected of the",
