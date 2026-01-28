@@ -764,10 +764,11 @@ return {
                 },
             },
             j_credit_card={
-                name="Credit Card",
+                name="Fundo's Credit Card",
                 text={
                     "Go up to",
                     "{C:red}-$#1#{} in debt",
+                    "{s:0.8} Every blue egg has to start somewhere{}",
                 },
             },
             j_delayed_grat={
@@ -810,6 +811,7 @@ return {
                     "at least {C:attention}16{} Enhanced",
                     "cards in your full deck",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive})",
+                    "{s:0.8}Issued from Swole's mod squad{}",
                 },
                 unlock={
                     "Enhance {E:1,C:attention}#1#{} cards",
@@ -1010,6 +1012,7 @@ return {
                     "{C:green}#2# in #3#{} chance this",
                     "card is destroyed",
                     "at end of round",
+                    "{s:0.8}meh, banana{}",
                 },
             },
             j_hack={
@@ -1038,7 +1041,7 @@ return {
                 },
             },
             j_hanging_chad={
-                name="Hanging Chad",
+                name="Hanging GigaChad",
                 text={
                     "Retrigger {C:attention}first{} played",
                     "card used in scoring",
@@ -1151,6 +1154,7 @@ return {
                     "Sell this card to",
                     "disable the current",
                     "{C:attention}Boss Blind{}",
+                    "{E:1}BOOYAKA BOOYAKA{}",
                 },
             },
             j_lucky_cat={
@@ -1160,6 +1164,8 @@ return {
                     "every time a {C:attention}Lucky{} card",
                     "{C:green}successfully{} triggers",
                     "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "{s:0.8} make swolegato proud{}",
+                    "{s:0.8} buff dis BOI up{}",
                 },
             },
             j_lusty_joker={
@@ -1201,6 +1207,7 @@ return {
                     "Adds one {C:attention}Stone{} card",
                     "to deck when",
                     "{C:attention}Blind{} is selected",
+                    "{s:0.8} no, it doesn't rig marbles!{}",
                 },
             },
             j_matador={
@@ -1222,6 +1229,7 @@ return {
                     "{C:red}+#1#{} discards",
                     "each round,",
                     "{C:red}#2#{} hand size",
+                    "{s:0.8}now where's Yorick?{}",
                 },
                 unlock={
                     "Win a run in {E:1,C:attention}#1#",
@@ -1487,6 +1495,7 @@ return {
                     "Played {C:attention}face{} cards",
                     "give {C:chips}+#1#{} Chips",
                     "when scored",
+                    "{s:0.8} uhhh, {C:attention}KowaiBae{} when?{}",
                 },
             },
             j_scholar={
