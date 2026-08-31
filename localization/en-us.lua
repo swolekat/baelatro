@@ -938,7 +938,7 @@ return {
                     "{C:red}+#1#{} Mult per {C:purple}Tarot{}",
                     "card used this run",
                     "{C:inactive}(Currently {C:red}+#2#{C:inactive})",
-                    "{s:0.8}notably, this is {s:1.0}NOT {s:0.8}Zara{}",
+                    "{s:0.8}notably, this is {s:1.0}NOT {s:0.8}Gothbae{}",
                 },
             },
             j_four_fingers={
@@ -1567,7 +1567,7 @@ return {
                     "a single {C:attention}6{}, destroy it and",
                     "create a {C:spectral}Spectral{} card",
                     "{C:inactive}(Must have room)",
-                    "{C:tarot,s:0.8}Gurl what? I don't do wishes{}",
+                    "{C:tarot,s:0.8}The universe works in mysterious ways{}",
                 },
             },
             j_sly={
@@ -1923,7 +1923,7 @@ return {
                 },
             },
             blue_seal={
-                name="Zara Seal",
+                name="Witch's Seal",
                 text={
                     "Creates the {C:planet}Planet{} card",
                     "for final played {C:attention}poker hand{}",
@@ -2586,7 +2586,7 @@ return {
             c_trance={
                 name="Trance",
                 text={
-                    "Add a {C:blue}Zara Seal{}",
+                    "Add a {C:blue}Witch's Seal{}",
                     "to {C:attention}1{} selected",
                     "card in your hand",
                 },
@@ -2943,7 +2943,7 @@ return {
                     "Creates a random",
                     "{C:attention}Joker{} card",
                     "{C:inactive}(Must have room)",
-                    "{s:0.8}Gurl What?{}",
+                    "{s:0.8}Ready to try a new look?{}",
                 },
             },
             c_justice={
@@ -3341,7 +3341,7 @@ return {
                 },
             },
             v_tarot_merchant={
-                name="Zara Merchant",
+                name="Witchy Merchant",
                 text={
                     "{C:tarot}Tarot{} cards appear",
                     "{C:attention}#1#X{} more frequently",
@@ -3889,7 +3889,7 @@ return {
             win_streak="Best Win Streak",
         },
         labels={
-            blue_seal="Zara Seal",
+            blue_seal="Witch's Seal",
             common="Meh",
             eternal="Eternal",
             foil="Foil",
@@ -4015,7 +4015,7 @@ return {
                 "how to play, either",
             },
             lq_7={
-                "Don't tell Zara",
+                "Don't tell Gothbae",
                 "we creased one of",
                 "her tarot cards...",
             },
