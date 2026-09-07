@@ -508,6 +508,8 @@ return {
                     "Each {C:attention}King{}",
                     "held in hand",
                     "gives {X:mult,C:white} X#1# {} Mult",
+					"{s:0.8}It's sure gonna be a{}",
+					"{s:0.8}beautiful run, isn't it?{}",
                 },
             },
             j_baseball={
@@ -777,6 +779,7 @@ return {
                     "Earn {C:money}$#1#{} per {C:attention}discard{} if",
                     "no discards are used",
                     "by end of the round",
+					"{s:0.8}All in on these NERPs{}",
                 },
             },
             j_devious={
@@ -888,6 +891,8 @@ return {
                     "more {C:attention}face cards{}",
                     "are discarded",
                     "at the same time",
+					"{s:0.8,C:A32900}Mon visage avant de{}",
+					"{s:0.8,C:A32900}rencontrer Swolebae{}",
                 },
             },
             j_family={
@@ -896,6 +901,7 @@ return {
                     "{X:mult,C:white} X#1# {} Mult if played",
                     "hand contains",
                     "a {C:attention}#2#",
+					"{s:0.8}Always room for one more{}",
                 },
                 unlock={
                     "Win a run",
@@ -917,6 +923,8 @@ return {
                     "This Joker gains {C:mult}+#1#{} Mult",
                     "per {C:attention}reroll{} in the shop",
                     "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
+					"{s:0.8,C:A32900}Le Blagueur{}",
+					"{s:0.8,C:A32900}Hé! Concentre-toi!{}",
                 },
             },
             j_flower_pot={
@@ -1089,6 +1097,7 @@ return {
                     "{C:chips}+#1#{} Chips",
                     "{C:chips}-#2#{} Chips for",
                     "every hand played",
+					"{s:0.8}Neko's Favorite{}",
                 },
             },
             j_idol={
@@ -1098,6 +1107,7 @@ return {
                     "of {V:1}#3#{} gives",
                     "{X:mult,C:white} X#1# {} Mult when scored",
                     "{s:0.8}Card changes every round",
+					"{s:0.8:}Eekum Bokum{}",
                 },
                 unlock={
                     "In one hand,",
@@ -1250,6 +1260,7 @@ return {
                     "Retrigger all",
                     "card {C:attention}held in",
                     "{C:attention}hand{} abilities",
+					"{s:0.8,C:A32900}Haute couture!{}",
                 },
             },
             j_misprint={
@@ -1410,6 +1421,7 @@ return {
                     "held in hand has",
                     "a {C:green}#2# in #3#{} chance",
                     "to give {C:money}$#1#{}",
+					"{s:0.8}Can't park there, mate{}",
                 },
             },
             j_ride_the_bus={
@@ -1436,7 +1448,7 @@ return {
                     "{C:attention}Joker{}, {C:tarot}Tarot{}, {C:planet}Planet{},",
                     "and {C:spectral}Spectral{} cards may",
                     "appear multiple times",
-                    "{s:0.8}Does the scrungle bungus upon hitting nane inf{}",
+                    "{s:0.8}Does the scrungle bungus upon hitting naneinf{}",
                 },
                 unlock={
                     "Reach Ante",
@@ -1495,7 +1507,7 @@ return {
                     "Played {C:attention}face{} cards",
                     "give {C:chips}+#1#{} Chips",
                     "when scored",
-                    "{s:0.8} uhhh, {C:attention}KowaiBae{} when?{}",
+                    "{s:0.8} uhhh, {s:0.8,C:attention}KowaiBae{s:0.8} when?{}",
                 },
             },
             j_scholar={
@@ -2463,6 +2475,7 @@ return {
                     "Add {C:dark_edition}Foil{}, {C:dark_edition}Holographic{},",
                     "or {C:dark_edition}Polychrome{} effect to",
                     "{C:attention}1{} selected card in hand",
+					"{s:0.8}good for farming, I've heard{}",
                 },
             },
             c_black_hole={
@@ -2706,7 +2719,7 @@ return {
                     "Gives a copy of the",
                     "next selected {C:attention}Tag{}",
                     "{s:0.8,C:attention}Double Tag{s:0.8} excluded",
-                    "{s:0.8}We going Naninf with this!{}",
+                    "{s:0.8}We going Naneinf with this!{}",
                 },
             },
             tag_economy={
